@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookings and Reservation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body style="color: rgb(8, 8, 8);">
+    <div class="hero">
+        <nav>
+            <h2 >Smart<span class="yego">Tour Rwanda</span></h2>
+    
+            <ul>
+                <li>
+                    <a href="index.html">Home</a> 
+                </li>
+                <li>
+                    <a href="service.html">Services</a>
+                </li>
+               <li>
+                    <a href="Gallery.html">Gallery</a>
+                </li>                
+                <li>
+                    <a href="booking.html">Bookings/Reservation</a>
+                </li>
+                <li>
+                    <a href="login.html">Login </a>
+                </li>
+            </ul>
+        </nav>
+        <nav >Experiance travel with smartTour Rwanda platform.</nav>
+    </div>
+
+    <!-- Bookings and Reservation-->
+
+<div class="bookis">
+  <h2>Booking and Reservation</h2>
+  <form action="booking.php" method="post" id="bookform">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="username" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="idnumber">ID Number/ Passport:</label>
+    <input type="text" id="idnumber" name="idnumber" required><br>
+
+    <label for="nationalism">Nationalism:</label>
+    <input type="nationalism" id="nationalism" name="nationalism" required><br>
+
+    <label for="phone">Phone:</label>
+    <input type="text   " id="phone" name="telephone" required><br>
+
+    <label for="checkin">Check-in Date:</label>
+    <input type="date" id="checkin" name="checkin" required><br>
+
+    <label for="checkout">Check-out Date:</label>
+    <input type="date" id="checkout" name="checkout" required><br>
+
+    <label for="guests">Number of Guests:</label>
+    <input type="number" id="guests" name="guests" min="1" required><br>
+
+    <label for="placeType">Where you want to visit:</label>
+    <select id="placeType" name="placeType" required>
+      <option value="">Select where you wish to visit</option>
+      <option value="nyanzapalace">Nyanza_Royal_Palace</option>
+      <option value="bigogwe">ibereryabigogwe</option>
+      <option value="huyemuseum">Huye National_Museum_of_Rwanda</option>
+      <option value="nyanzapalace">volcanoesnationalpark</option>
+      <option value="bigogwe">Nyungwe National Park</option>
+      <option value="huyemuseum">Lake Kivu</option>
+      <option value="nyanzapalace">Akagera National Park</option>
+      <option value="bigogwe">Kigali Genocide Memorial</option>
+      <option value="huyemuseum">Inema Art Center</option>
+    </select><br>
+
+    <label for="specialRequests">Special Requests:</label><br>
+    <textarea id="specialRequests" name="specialRequests" rows="5" cols="65"></textarea>
+<nav>
+    <input type="submit" value="Submit" name="submit" id="reserv">
+</nav>
+  </form>
+</div>
+
+<footer class="hasicyane">
+    <p id="amaz"> Smart Tourism </p>
+       
+    <div class="footer-col">
+        <h4>Follow us</h4>
+        <ul>
+  <div class="social-links">
+      <div class="row">
+    <a href="https://www.facebook.com/bonheur-rukwaya">Facebook<i class="fa-brands fa-facebook"></i></a>
+    </div>
+    <div class="row">
+    <a href="https://wa.me/+250784857700 ">Whatsapp<i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <div class="row">
+    <a href="https://www.instagram.com/bonheur-rukwaya ">Instagram<i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="row">
+    <a href="https://twitter.com/@BRukwaya">Twitter<i class="fa-brands fa-twitter" ></i></a>
+    </div>
+    <div class="row">
+    <a href="https://www.linkedin.com/in/bonheur-rukwaya">Linked_in<i class="fa-brands fa-linkedin  "></i></a>
+    </div>
+    <div class="row">
+    <a href="https://github.com/Bonheur2">Github<i class="fa-brands fa-github-square"> </i></a>
+    </div>
+ </div>
+ </ul>
+ </div>
+
+
+  <p class="end">CopyRight &copy By: <a href="#">RUKWAYA Bonheur</a></p>
+</footer>
+
+
+</body>
+</html>

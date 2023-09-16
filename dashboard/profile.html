@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="mainn.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  <div class="sliderbar">
+    <div class="log"></div>
+    <ul class="main">
+        <li class="active">
+            <a href="userdash.html">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Dashboard</span></a>
+        </li>
+        <li>
+            <a href="profile.html">
+            <i class="fas fa-user"></i>
+            <span>Profile</span>
+            </a>
+        </li>
+        <li>
+            <a href="userstatistics.html">
+            <i class="fas fa-chart-bar"></i>
+            <span>Statistic</span></a>
+        </li>
+        <li>
+            <a href="userbook.html">
+            <i class="fas fa-tachometer-alt"></i>
+            <span>Booking </span>
+        </a>
+        </li>
+        <li>
+            <a href="usersetting.html">
+            <i class="fas fa-cog"></i>
+            <span>Settings</span></a>
+        </li>
+        <li class="logout">
+            <a href="../login.html">
+            <i class="fas fa-sign-out-alt"></i>
+            <span>Logout</span>
+        </a>
+        </li>
+    </ul>
+  </div> 
+  <div class="maincontent">
+    <div class="headerwrapper">
+        <div class="headertitle">
+            <span>User, </span>
+            <h2>Dashboard</h2>
+        </div>
+        <div class="userinformation">
+            <div class="searchbox">
+            <i class="fa-solid fa-search"></i>
+            <input type="text" placeholder="Search">
+        </div>
+            <img src="profile.jpg" alt="User Profile">
+    </div>
+
+    </div>
+    <div class="cardcontainerr">
+        <!-- <div> -->
+            <center>
+                <h2>User Profile</h2>
+            </center>
+            <div>
+            <div class="profile-details">
+                <!-- <img src="profile.jpg" alt="User Profile" width="300px"> -->
+                <div class="user-info">
+                    <h3>Bonheur RUKWAYA</h3>
+                    <p>Email: bonheurrukwaya@gmail.com</p>
+                    <p>Role: Tourist</p>
+                    <p>Joined: January 15, 2023</p>
+                </div>
+            </div>
+            
+            <div class="profile-section">
+                <h3>Personal Information</h3>
+                <p>Full Name: Bonheur RUKWAYA</p>
+                <p>Gender: Male</p>
+                <p>Date of Birth: june 23, 2001</p>
+            </div>
+            
+            <div class="profile-section">
+                <h3>Contact Information</h3>
+                <p>Email: bonheurrukwaya@gmail.com</p>
+                <p>Phone: +250787306047</p>
+                <p>Address: 123 Main St, kigali, Rwanda</p>
+            </div>
+            
+            <div class="profile-section">
+                <h3>Settings</h3>
+                <p>Notification Preferences: On</p>
+                <p>Language: English</p>
+            </div>
+            <button id="editProfileButton">Edit Profile</button>
+        </div>
+        
+   </div>
+  
+
+ 
+</body>
+</html>

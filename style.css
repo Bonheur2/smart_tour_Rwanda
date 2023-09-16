@@ -1,0 +1,575 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans',  Sans-serif;
+	box-sizing: border-box;
+}
+.hero{
+	height: 45vh;
+	width: 100%;
+    background: rgb(186,197,214);
+    background: linear-gradient(13deg, rgba(186,197,214,1) 15%,rgba(95,128,135,1) 35%, rgba(202,225,231,1) 44%,rgba(193,210,215,1) 68%, rgba(115, 175, 110) 80%); 
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between; 
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	 color: black;
+	 font-size: 35px;
+	 letter-spacing: 1px;
+	 cursor: pointer;
+}
+ .misvis
+{
+	display: flex;
+	background-color:rgb(235, 231, 225);
+	justify-content: space-around;
+	margin: 10px;
+	padding: 10px;
+}
+.zose
+{
+	font-weight: bold; 
+	font-size: 30px;
+	position: center;
+	margin-left: 45%;
+}
+.ubwo li
+{
+	font-size: 20px;
+	text-decoration: none;
+}
+.zose ul
+{
+	justify-content: center;	
+	padding-left: 70 px;
+}
+nav h2
+{
+	color: black;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.yego
+{
+	color: rgb(0, 0, 255);
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+} 
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: large;
+}
+nav ul li a:hover{
+	border:2px;
+	color: white;
+	transition: 1s;
+ }
+ .photo
+ {
+	display: flex; 
+	flex-wrap: wrap;
+	background-color: rgb(185, 189, 192);
+ }
+ .photo img
+ {
+	height: 300px; 
+	width: 440px; 
+	padding: 10px;
+ }
+ .alink
+ {
+	font-weight: bold; 
+	background-color: silver;
+	padding: 10px;
+ }
+ .alinks
+ {
+	display: flex; 
+	justify-content:space-evenly;
+	 background-color: aliceblue;
+ }
+ .alinks li
+ {
+	padding: 7px;
+	list-style-type: none;
+ }
+ .alinks li a
+{	
+	text-decoration: none;
+}
+ .hasi
+ {
+	display: flex;
+	background-color: silver;
+ }
+ .nav1
+ {
+	margin-left: 20%;
+	border-radius: 20px;
+	background: rgb(170,206,213);
+	background: linear-gradient(112deg, rgba(170,206,213,1) 44%, rgba(183,183,223,1) 30%, rgba(0,212,255,1) 56%);
+ }
+ .nav1 input
+ {
+	width: 70%;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 8px;
+	margin-top: auto;
+	margin: 5px;
+ }
+.salut{
+	margin-top: auto;
+	padding: 15px;
+	background: silver;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.end {
+    position: absolute;
+    color:#5c5555;
+    bottom: 15px;
+    font-size: 14px;
+}
+
+.fa-brands{
+  padding: 5px;
+  font-size: 25px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-brands:hover {
+  opacity: 0.90;
+}
+.social-links{
+	width: 10%;
+	padding-right: 20px;
+	display: inline-flex;
+}
+
+.footer-col h4{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.row{
+	padding: 20px;
+	font-size: 25;
+}
+.row a
+{
+	text-decoration: none;
+}
+.hasicyane
+{
+	background: rgb(135,193,208);
+background: linear-gradient(360deg, rgba(135,193,208,1) 32%, rgba(189,201,205,1) 45%, rgba(230,216,216,1) 80%);
+}
+.container
+{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+/*starting of signup form  */
+
+
+
+.allsignup
+{
+	background: rgb(170,206,213);
+	/* opacity: 60%; */
+}
+#sign_up
+{
+	background: rgb(170,206,213);
+	background: linear-gradient(112deg, rgba(170,206,213,1) 44%, rgba(183,183,223,1) 30%, rgba(0,212,255,1) 56%);
+	padding: 40px;
+	border-radius: 20px;
+}
+
+.signupform
+{
+	flex-direction: column;	
+	max-width: fit-content;
+	align-items: center;
+	padding-left:40% ;
+}
+.signupform input
+{
+	width: 90%;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 8px;
+	outline: none;
+	margin-top: auto;
+	margin: 10px;
+}
+.signupform label
+{
+	margin: 10px;
+}
+.signupform #signup
+{
+	font-size: 35px;
+}
+
+
+
+
+
+
+
+/* here we start on  Login form */
+
+
+
+
+
+
+#loginform
+{
+	background: rgb(170,206,213);
+	background: linear-gradient(112deg, rgba(170,206,213,1) 44%, rgba(183,183,223,1) 30%, rgba(0,212,255,1) 56%);
+	padding: 20px;
+	margin: auto;
+	width: 100vh;	
+	border-radius: 20px;
+}
+
+#paper
+{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.log
+{
+	border:1px; 
+	background: rgb(186,197,214);
+    background: linear-gradient(cirle, rgba(186,197,214,1) 15%, 
+	rgb(94, 132, 141) 45%, rgba(202,225,231,1) 20%, rgba(193,210,215,1) 68%, 
+	rgba(145,135,135,1) 80%);
+	width: 100%;
+	height: 60vh;
+	justify-content: center;
+	display: flex;
+	padding: 25px;
+	font-weight: 400;
+}
+.log p a 
+{
+	text-decoration: none;
+	color: dodgerblue;
+}
+#login , #signup 
+{
+	background-color: #ffffff;
+	margin-top: 30px;
+	font-size: 24px;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+	border-radius: 5px;
+}
+.btn button :hover 
+{
+	color: #4400ff;
+	transform: scale(1.05) translateX(12px);
+	font-family: 'Times New Roman', Times, serif;
+}
+#login a, #signup a
+{
+	text-decoration: none;
+	color: #0056b3;
+	margin: auto;
+	margin: 5px;
+}
+
+.error-message {
+  color: red;
+}
+#loginform #login
+{
+	font-size: 35px;
+}
+
+
+
+
+/* here we start on  bookings and reservation form */
+
+
+
+
+
+#bookform
+{
+	background: rgb(170,206,213);
+	background: linear-gradient(112deg, rgba(170,206,213,1) 44%, rgba(183,183,223,1) 30%, rgba(0,212,255,1) 56%);
+	padding-bottom: 15px;
+	margin: 20px;
+	border-radius: 20px;
+}
+.bookis
+{
+	background: rgb(186,197,214);
+    background: linear-gradient(cirle, rgba(186,197,214,1) 15%, 
+	rgb(94, 132, 141) 45%, rgba(202,225,231,1) 20%, rgba(193,210,215,1) 68%, 
+	rgba(145,135,135,1) 80%);
+	width: 100%;
+	height: 165vh;
+	justify-content: center;
+	display: flex;
+	padding: 25px;
+	border-radius: 5px;
+}
+.bookis h2
+{
+	margin: 29px;
+	text-decoration: underline;
+	align-items: center;
+}
+#reserv
+{
+	font-size: 18px;
+	background-color: #1900ff;
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+#reserv:hover
+{
+	background-color: #ffffff;
+	color: #0056b3;
+	margin-top: -5px;
+	box-shadow: #000000 5px;
+	transform: scale(1.05) translateX(12px);
+}
+#selecctType
+{
+	padding: 20px;
+	font-size: large;
+}
+#bookform input, select
+{
+	width: 90%;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 8px;
+	outline: none;
+	margin-top: auto;
+	margin: 10px;
+}
+#bookform textarea
+{
+	margin: 10px;
+}
+#bookform label
+{
+	font-size: large;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Startng of user dashboard */
+
+
+
+
+
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main {
+	padding: 20px;
+}
+
+#uri {
+	margin-top: 0;
+}
+
+#logout {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.user-info, .user-data {
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+#start-dash
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+/* statistic in dashboard */
+
+
+
+
+.dodo
+{
+	background: rgba(170,206,213,0.3);
+	/* opacity: 20%; */
+}
+.statist
+{
+	margin: 20px;
+}
+  h1 {
+	text-align: center;
+	color: #333;
+  }
+
+  table.stats-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+  }
+
+  table.stats-table th,
+  table.stats-table td {
+	border: 1px solid #080808;
+	padding: 10px;
+	text-align: center;
+  }
+
+  table.stats-table th {
+	background-color: #ebe1e1;
+  }
+
+  table.stats-table ul {
+	list-style: none;
+	padding: 0;
+	text-align: left;
+  }
+
+  table.stats-table li {
+	margin-bottom: 5px;
+  }
+
+
+
+
+
+/* starting sevices css*/
+
+
+
+.service-all
+{
+	display: flex;
+	background-color: rgb(216, 218, 217);
+	justify-content: center;
+	padding: 20px;
+}
+.service-all ul li
+{
+	text-decoration: none;
+	margin-top: 10px;
+	list-style: none;
+}
+.services1
+{
+	text-decoration: none;
+	display: inline-table;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.accomm-book h2
+{
+	text-decoration: none;
+}
+
+
+/*validating email*/
+
+
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* Success message */
+.message.success {
+    color: green;
+    background-color: #e9f9e9;
+    border: 1px solid #8bc34a;
+}
+
+/* Error message */
+.message.error {
+    color: red;
+    background-color: #ffebee;
+    border: 1px solid #f44336;
+}

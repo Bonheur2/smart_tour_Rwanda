@@ -1,0 +1,125 @@
+[
+    {
+        "username": "user1",
+        "password": "pass1",
+        "name": "John ",
+        "identification": "123456789",
+        "phone": "123-456-7890",
+        "country": "USA",
+        "time": "10:00 AM",
+        "visitedAddress": "Nyanza palace",
+        "recommendedAddress": "Nyungwe national park"
+    },
+    {
+        "username": "user2",
+        "password": "pass2",
+        "name": "Smith",
+        "identification": "987654321",
+        "phone": "987-654-3210",
+        "country": "France",
+        "time": "02:30 PM",
+        "visitedAddress": "Ibere rya bigogwe",
+        "recommendedAddress": "Akagera national park"
+    },
+    {
+        "username": "user3",
+        "password": "pass3",
+        "name": "Lucas",
+        "identification": "452654321",
+        "phone": "1337-654-3210",
+        "country": "Uganda",
+        "time": "02:30 PM",
+        "visitedAddress": "Lake Muhazi",
+        "recommendedAddress": "Kinigi vilage"
+    },    
+    {
+        "username": "user4",
+        "password": "pass4",
+        "name": "Gabriel",
+        "identification": "12154321",
+        "phone": "25087126352",
+        "country": "Rwanda",
+        "time": "02:30 PM",
+        "visitedAddress": "Akagera national park",
+        "recommendedAddress": "Huye National Museum"
+    },    
+    {
+        "username": "user5",
+        "password": "pass5",
+        "name": "Ethan",
+        "identification": "987654321",
+        "phone": "987-654-3210",
+        "country": "France",
+        "time": "02:30 PM",
+        "visitedAddress": "Bishoke Mountain",
+        "recommendedAddress": "Inema Art Center"
+    },    
+    {
+        "username": "user6",
+        "password": "pass6",
+        "name": "Sebastian",
+        "identification": "987654321",
+        "phone": "987-654-3210",
+        "country": "Israel",
+        "time": "06:30 PM",
+        "visitedAddress": "Nyungwe national park",
+        "recommendedAddress": "Akagera national park"
+    },    
+    {
+        "username": "user2",
+        "password": "pass8",
+        "name": "Alexander",
+        "identification": "17654321",
+        "phone": "18722210",
+        "country": "Sueden",
+        "time": "02:30 PM",
+        "visitedAddress": "Ibyiwacu Cultural Village",
+        "recommendedAddress": "Ibere rya  bigogwe"
+    },
+    {
+        "username": "user9",
+        "password": "pass9",
+        "name": "Elijah",
+        "identification": "1347654321",
+        "phone": "27812210",
+        "country": "Croatia",
+        "time": "02:30 PM",
+        "visitedAddress": "Lake kivu",
+        "recommendedAddress": "Inema Art Center"
+    },
+    
+    {
+        "username": "user10",
+        "password": "pass10",
+        "name": "Henry",
+        "identification": "262654321",
+        "phone": "27627817210",
+        "country": "Datch",
+        "time": "02:30 PM",
+        "visitedAddress": "Kigali Genocide Memorial",
+        "recommendedAddress": "Huye National Museum"
+    },
+    {
+        "username": "user11",
+        "password": "pass11",
+        "name": "claude",
+        "identification": "12417654321",
+        "phone": "76987-654-3210",
+        "country": "Austaria",
+        "time": "02:30 PM",
+        "visitedAddress": "Huye  national museum",
+        "recommendedAddress": "Nyanza palce"
+    },
+    
+    {
+        "username": "user2",
+        "password": "pass12",
+        "name": "Jean De Dieu",
+        "identification": "6287854321",
+        "phone": "987-654-3210",
+        "country": "Canada",
+        "time": "12:30 PM",
+        "visitedAddress": "Volcano national park",
+        "recommendedAddress": "Akagera national park"
+    }
+]

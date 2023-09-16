@@ -1,0 +1,75 @@
+/* ---------------------search  page----------------*/
+.input-search{
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 30px 30px;
+    overflow-y: visible;
+    border: 3px solid #0397fa;
+}
+
+.input-search input[type=text], 
+.input-search input[type=date], 
+.input-search input[type=number]{
+    
+    width: 290%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: 1px solid blue;
+    display: inline-block;
+}
+.input-search input[type="text"],  
+.input-search input[type="date"], 
+.input-search input[type="number"]:focus{
+    width: 290%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid blue;
+    box-sizing: border-box;
+   }
+
+/*search place to go*/
+
+.input-search input{
+    font-size: 20px;
+    color: black;
+}
+.input-search ::placeholder{
+    color: black;
+}
+.input-search 
+.result-box, 
+.result-box2{
+    background-image: linear-gradient(to bottom, blue 0%, green 100%);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 290%;
+}
+.input-search .result-box ul, .result-box2 ul{
+    list-style-type:none;    
+}
+.input-search .result-box ul li, .result-box2 ul li{
+    font-size: 20px;
+    margin-bottom: 4px;
+    padding: 10px 50px ;
+    color: white;
+    cursor: pointer;
+}
+.input-search .result-box ul li:hover, .result-box2  ul li:hover{
+    background-color: rgb(24, 161, 207);
+    color: wheat;
+}
+.input-search .result-box ul li:not(:last-child), .result-box2 ul li:not(:last-child){
+    border-bottom: 1px solid wheat;
+}
+/* end of search place to go*/
+.input-search button{
+    width: 50%;
+    height: 60px;
+    font-size: 18px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    background-color: gold;
+    color: white;
+}

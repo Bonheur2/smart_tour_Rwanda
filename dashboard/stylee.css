@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+*{
+    margin:0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    display: flex;
+}
+.sliderbar{
+    position: sticky;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #000000;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: #0727c9;
+}
+.sliderbar:hover{
+    width: 240px;
+    transition: 0.5s;
+}
+.logo{
+    height: 80px; 
+    padding: relative;
+
+}
+.main{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.main li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.main li:hover,.active{
+    background-color: #e0e0e058;
+}
+.main a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+.main a span{
+    overflow: hidden;
+}
+.main a i{
+    font-size: 1.2rem;
+}
+.logout{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+
+}
+.maincontent{
+    position: relative;
+    background: rgb(170,206,213);
+	background: linear-gradient(112deg, rgba(170,206,213,1) 44%, rgba(183,183,223,1) 30%, rgba(0,212,255,1) 56%);    width: 100%;
+    padding: 1rem;
+
+}
+.headerwrapper img{
+    width:  50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.headerwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #668fa7;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+
+}
+.headertitle{
+    color: rgba(113, 99,186, 255);
+
+}
+.userinformation{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.searchbox{
+    /* background-color: rgb(237,237,237); */
+    border-radius: 15px;
+    color: rgba(113, 99,186, 255);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.searchbox input{
+   background-color: transparent;
+    padding: 10px;
+
+}
+.searchbox i{
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+
+}
+.searchbox i:hover{
+    transform: scale(1,2);
+}
+.cardcontainer{
+    /* background: #fff; */
+    padding: 2rem;
+    border-radius: 10px;
+}
+.cardwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.maintitle{
+    color:black;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.paymentcard
+{
+    background-color: #668fa7;
+}
+/* .paymentcard:first-child{
+     background: rgb(187, 165, 165);
+}
+.paymentcard:nth-child(2){
+    background: rgb(46, 1, 211);
+}
+.paymentcard:nth-child(3){
+    background: rgb(70, 92, 138);
+}
+.paymentcard:nth-child(4){
+    background: rgb(15, 159, 6);
+} */
+
+.paymentcard{
+    border-radius: 10px;
+    padding: 5px;
+    width: 250ox;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+}
+.paymentcard:hover{
+    transform: translateY(-5px);
+}
+.cardheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+}
+
+.amountvalue{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon{
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 1.5rem;
+    background: red;
+    margin-top: -20px;
+}
+.yyy
+{
+    padding: 20px
+}
+.tour
+{
+    text-decoration: none;
+    list-style: none;
+}
+.tour li
+{
+    padding-top: 10px;
+}
+
+/* grif items*/
+
+.grid-item {
+    background-color: rgb(221, 211, 211);
+    border: rgb(47, 47, 49) 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    /* background-color: rgb(158, 158, 158); */
+    margin: 30px;
+}
+
+.grid-item-1 {
+    grid-row: span 2;
+}
+.grid-item-4 {
+    grid-column: span 2;
+}
+.grid-item-1{
+    align-items: start;
+}
+.from-to{
+    display: flex;
+    flex-shrink: 2;
+}
+input{
+    color: grey;
+    border: black 2px solid;
+    height: 20px;
+    border-radius: 5px;
+}
+
+/* Style for the table */
+#userTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+}
+
+#userTable th {
+    background-color: #111010;
+    color: white;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+#userTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+#userTable tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+
+
+
+/* user dashboard */
+
+
+.dodo{
+	background: rgba(170,206,213,0.3);
+}
+.statist
+{
+	margin: 20px;
+}
+  h1 {
+	text-align: center;
+  }
+
+  table.stats-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+  }
+
+  table.stats-table th,
+  table.stats-table td {
+	border: 1px solid #080808;
+	padding: 10px;
+	text-align: center;
+  }
+
+  table.stats-table th {
+	background-color: #ebe1e1;
+  }
+
+  table.stats-table ul {
+	list-style: none;
+	padding: 0;
+	text-align: left;
+  }
+
+  table.stats-table li {
+	margin-bottom: 5px;
+  }
+
+.birakaze
+{
+    margin: 30px;
+}
+
+
+
